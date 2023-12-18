@@ -1,0 +1,23 @@
+.studentCont{
+    background-color: white;
+    min-height: 400px;
+    padding: 15px;
+}
+
+.studentWrapper{
+    background-color:#17ae0d ;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-radius: 15px;
+}
+.studentAddDetail{
+font-size: 14px;
+    background-color:gainsboro ;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-top: 30px;
+}

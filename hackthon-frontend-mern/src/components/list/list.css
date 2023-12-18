@@ -1,0 +1,10 @@
+.listContainer{
+    flex: 5;
+    height: 100vh;
+    background-color: #eff7ff;
+}
+
+.studentDetail{
+    margin-top: 20px;
+    padding: 20px;
+}
