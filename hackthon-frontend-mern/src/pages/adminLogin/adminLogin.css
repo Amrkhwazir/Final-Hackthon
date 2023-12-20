@@ -1,7 +1,7 @@
 .login{
     width: 100%;
     min-height: 500px;
-    background-color: #f2f3fd;
+    background-color: white;
     display: flex;
     padding-top: 50px;
     justify-content: center;
@@ -57,8 +57,10 @@
 .loginBox{
     height: 400px;
     padding: 20px;
-    background-color: white;
-    color: grey;
+    background-color: #f2f3fd;
+    border: 1px solid #f2f3fd;
+    box-shadow: -1px 2px 5px 0px grey;
+    color: rgb(110, 110, 110);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -66,7 +68,7 @@
 
 .loginInput{
     height: 50px;
-    background-color: rgb(236, 236, 255);
+    background-color: white;
     font-size: 18px;
     border: 1px solid #bbbdbe;
     border-radius: 8px;

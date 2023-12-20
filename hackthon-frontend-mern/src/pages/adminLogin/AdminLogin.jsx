@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import "./login.css"
+import "./adminLogin.css"
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
-import logo from "../../assets/loginLogo.png"
+import adminLogo from "../../assets/adminlogin.png"
 
 
 
-const Login = () => {
+const AdminLogin = () => {
 
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -45,15 +45,15 @@ const Login = () => {
          <div className="login">
             <div className="loginWrapper">
               <div className='loginLeft'>
-                <img src={logo} className='authImage' />
+                <img src={adminLogo} className='authImage' />
                 <div className='adminBtn'>
-                  <button onClick={()=> navigate("/adminsignin")}>Admin Sign In</button>
+                  <button onClick={()=> navigate("/")}>Student Sign In</button>
                 </div>
               </div>
                 <div className="loginRight">
                     <div className="loginBox">
-                      <div className='loginLogo'>STUDENT SIGN IN</div>
-                      <p className='para'>Enjoy Your Journey</p>
+                      <div className='loginLogo'>ADMIN SIGN IN</div>
+                      <p className='para'>Welocome to the Admin Panel</p>
                       <label className='label'>Email</label>
                         <input placeholder="Email" type="email" required className="loginInput" onChange={(e)=> setEmail(e.target.value)} />
                         <label>Password</label>
@@ -67,4 +67,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default AdminLogin

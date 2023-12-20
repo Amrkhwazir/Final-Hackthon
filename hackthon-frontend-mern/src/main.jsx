@@ -10,6 +10,7 @@ import Login from './pages/login/Login';
 import Dashboard from "./pages/dashboard/Dashboard"
 import AddUser from './pages/adduser/AddUser';
 import { Attendance } from './components/attendance/Attendance';
+import AdminLogin from './pages/adminLogin/AdminLogin';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/attendance",
     element: <Attendance />,
+  },
+  {
+    path: "/adminsignin",
+    element: <AdminLogin />,
   },
 ]);
 
